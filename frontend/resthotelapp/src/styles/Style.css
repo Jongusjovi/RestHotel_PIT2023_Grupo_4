@@ -1,0 +1,57 @@
+#root{
+    width: 100%;
+}
+.Menu{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #333;
+    color: white;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.tituloPagina{
+    color: white;
+    background-color: #333;
+}
+
+.Cabecalho{
+    position: top;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+.cabtitle{
+    margin-left: -20%;
+    
+    padding-block: 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.form_container {
+    width: 20%;
+    box-shadow: 0 2px 25px -5px rgba(0,0,0,.07),0 25px 21px -5px rgba(0,0,0,.04)!important
+}
+
+@media screen and (max-width: 1000px) {
+    .form_container {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form_container {
+        width: 65%;
+    }
+}
